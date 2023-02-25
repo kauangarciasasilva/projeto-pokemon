@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import Pokemon from "./component";
 import { Container, PokemonStyle, PokemonList } from "./style";
+import React from "react";
+import { useSearchParams } from "react-router-dom";
 
 export default function Home() {
 
     const [pokemons, setPokemons] = useState<any[]>([])
-
+    
     function getPokemons(){
         var pokemonPromises = [];
         for(var i=1;i<100;i++){
