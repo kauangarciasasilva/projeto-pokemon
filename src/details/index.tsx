@@ -1,11 +1,11 @@
 
-import PokemonEntity from "../home/entities/pokemon-entity";
 import { useState, useEffect } from "react";
 import React from "react";
 import { Container, HpText, Details, LeftAlign, CenterAlign, RightAlign, PokemonStyle } from "./style";
 import { getPokemonColorByType } from "../utils/pokemon-colors-util";
 import { pokemonLocal } from "../utils/consts";
 import { useSearchParams } from "react-router-dom";
+import PokemonEntity from "../pokemon-list/model/services/pokemon-entity";
 
 export default function PokemonDetails(){
 
