@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import PokemonDetails from './details';
 import{BrowserRouter,Routes,Route} from 'react-router-dom';
 import PokemonListControler from './pokemon-list/controller/pokemon-list-controle';
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

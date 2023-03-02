@@ -1,7 +1,9 @@
 import React from "react";
 
-import { fetchPokemons } from "../model/services/fetch-pokemons-services";
+
 import Home from "../view/pokemon-list-page";
+import { fetchPokemons } from "../model/sevices/fetch-pokemons-services";
+
 
 interface Props{
 
